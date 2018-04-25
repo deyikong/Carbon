@@ -52,7 +52,7 @@ use Symfony\Component\Translation\TranslatorInterface;
  * @property-read string $timezoneName
  * @property-read string $tzName
  */
-class Carbon extends DateTime implements JsonSerializable
+class Carbon extends DateTime implements JsonSerializable, DateTimeInterface
 {
     const NO_ZERO_DIFF = 01;
     const JUST_NOW = 02;
